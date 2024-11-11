@@ -29,5 +29,12 @@ body {
   color: #1e201e;
 }
 
-html.lenis {
+@layer utilities {
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+
+  .customBtn {
+    @apply font-semibold rounded-md bg-[--foreground] py-3 px-6 border border-transparent text-center text-sm text-[--background] transition-all duration-500 shadow-md hover:shadow-lg focus:bg-[--background] focus:shadow-none active:bg-[--background] hover:bg-[--background] hover:text-[--foreground] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none ml-2;
+  }
 }

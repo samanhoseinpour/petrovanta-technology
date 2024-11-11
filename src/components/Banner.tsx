@@ -1,8 +1,8 @@
-interface BannerTitle {
+interface BannerProps {
   title: string;
 }
 
-const Banner: React.FC<BannerTitle> = ({ title }) => {
+const Banner: React.FC<BannerProps> = ({ title }) => {
   return (
     <section className="bg-[#1e201e] text-center p-3 flex justify-center items-center gap-2">
       <svg

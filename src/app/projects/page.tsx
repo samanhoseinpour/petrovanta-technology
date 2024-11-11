@@ -1,7 +1,9 @@
-import React from 'react';
+import { Maintenance } from '@/components';
 
 const ProjectsPage = () => {
-  return <div>ProjectsPage</div>;
+  return (
+    <Maintenance title="Our website is currently under development for improvement." />
+  );
 };
 
 export default ProjectsPage;
