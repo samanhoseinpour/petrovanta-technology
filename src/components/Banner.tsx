@@ -4,7 +4,7 @@ interface BannerProps {
 
 const Banner: React.FC<BannerProps> = ({ title }) => {
   return (
-    <section className="bg-[#1e201e] text-center p-3 flex justify-center items-center gap-2">
+    <section className="bg-[--foreground] text-center p-3 flex justify-center items-center gap-2">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -12,7 +12,7 @@ const Banner: React.FC<BannerProps> = ({ title }) => {
         strokeWidth={1.5}
         stroke="currentColor"
         className="size-5 animate-pulse"
-        style={{ fill: '#ede8e6' }}
+        style={{ fill: '#fff' }}
       >
         <path
           strokeLinecap="round"
@@ -21,7 +21,7 @@ const Banner: React.FC<BannerProps> = ({ title }) => {
         />
       </svg>
 
-      <span className="animate-pulse text-[#ede8e6] text-lg max-sm:text-[13px]">
+      <span className="animate-pulse text-[--background] text-lg max-sm:text-[13px]">
         {title}
       </span>
     </section>

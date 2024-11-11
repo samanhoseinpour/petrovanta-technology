@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 
 import { NavButton } from './';
-import { navItems } from '@/utils/navData';
+import { navItems } from '@/utils/constants';
 
 const NavMenu = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,7 +25,9 @@ const NavMenu = () => {
             <ul className="flex flex-col gap-2 flex-1">
               {navItems.map((item) => (
                 <Link href={item.href} key={item.id}>
-                  <li className="text-2xl font-medium">{item.label}</li>
+                  <li className="text-2xl font-medium dark:text-[--background]">
+                    {item.label}
+                  </li>
                 </Link>
               ))}
             </ul>

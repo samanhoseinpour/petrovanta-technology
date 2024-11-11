@@ -9,10 +9,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    /* --background: #1e201e;
-    --foreground: #ede8e6; */
-    --background: #ede8e6;
-    --foreground: #1e201e;
+    --background: #1e201e;
+    --foreground: #ede8e6;
+    /* --background: #ede8e6;
+    --foreground: #1e201e; */
   }
 }
 
@@ -22,11 +22,21 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow: scroll;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
   color: #1e201e;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background: transparent;
 }
 
 @layer utilities {

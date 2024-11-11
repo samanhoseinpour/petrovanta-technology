@@ -3,7 +3,7 @@ const Footer = () => {
 
   return (
     <footer className="flex justify-center text-center text-sm py-12 max-sm:text-[12px]">
-      <p>
+      <p className="dark:text-[--foreground]">
         Copyright {currentYear} Vanta Energy Technology. All rights reserved.
       </p>
     </footer>
