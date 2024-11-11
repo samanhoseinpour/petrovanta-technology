@@ -11,7 +11,7 @@ const Banner: React.FC<BannerTitle> = ({ title }) => {
         viewBox="0 0 24 24"
         strokeWidth={1.5}
         stroke="currentColor"
-        className="size-4 animate-pulse"
+        className="size-5 animate-pulse"
         style={{ fill: '#ede8e6' }}
       >
         <path
@@ -21,7 +21,7 @@ const Banner: React.FC<BannerTitle> = ({ title }) => {
         />
       </svg>
 
-      <span className="animate-pulse text-[#ede8e6] text-sm max-sm:text-[10px]">
+      <span className="animate-pulse text-[#ede8e6] text-lg max-sm:text-[13px]">
         {title}
       </span>
     </section>

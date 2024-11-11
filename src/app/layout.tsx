@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import './globals.css';
+import 'lenis/dist/lenis.css';
 
 import { Navbar, Footer, Banner } from '@/components';
+import { ReactLenis } from '@/utils/lenis';
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
@@ -32,14 +34,16 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <Banner title="Our website is currently under development for improvement." />
-        <Navbar />
-        {children}
-        <Footer />
-      </body>
+      <ReactLenis root>
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        >
+          <Banner title="Our website is currently under development for improvement." />
+          <Navbar />
+          {children}
+          <Footer />
+        </body>
+      </ReactLenis>
     </html>
   );
 }
