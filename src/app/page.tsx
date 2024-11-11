@@ -1,3 +1,9 @@
+import { HeroVideo } from '@/components';
+
 export default function Home() {
-  return <div className="text-3xl">Vanta Technology</div>;
+  return (
+    <main>
+      <HeroVideo />
+    </main>
+  );
 }
