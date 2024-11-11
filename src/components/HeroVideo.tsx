@@ -21,9 +21,10 @@ const HeroVideo: NextPage = () => {
           className="text-base leading-[150%] max-sm:text-sm self-end dark:text-[--foreground]"
           variants={riseWithFade}
         >
-          Revolutionary (Down-View Camera Technology) providing unparalleled,
-          high-resolution top-down clarity to enhance safety, precision, and
-          performance across automotive, drone, and surveillance applications.
+          Our revolutionary Down-View Camera Technology, designed for oil and
+          gas wells, withstands high temperatures and pressure, delivering
+          unparalleled top-down clarity to enhance safety and performance in
+          demanding environments.
         </motion.div>
       </div>
       <motion.video
