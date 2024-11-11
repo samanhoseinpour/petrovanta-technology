@@ -22,9 +22,9 @@
   box-sizing: border-box;
 }
 
-html {
+/* html {
   overflow: scroll;
-}
+} */
 
 body {
   color: var(--foreground);
@@ -33,11 +33,11 @@ body {
   color: #1e201e;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 0px;
   height: 0px;
   background: transparent;
-}
+} */
 
 @layer utilities {
   .flex-center {
