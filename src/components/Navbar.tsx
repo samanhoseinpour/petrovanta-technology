@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="flex justify-between items-center p-8 rounded-lg z-50">
       <Link href="/">
         <h1 className="font-bold text-2xl max-sm:text-xl dark:text-[--foreground]">
-          Vanta Energy Tech
+          Petrovanta Energy Tech
         </h1>
       </Link>
 

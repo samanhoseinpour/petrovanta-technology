@@ -18,9 +18,9 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'Vanta Energy Technology - Leading Oil Well Solutions',
+  title: 'Petrovanta Energy Technology - Leading Oil Well Solutions',
   description:
-    'Vanta Energy Technology specializes in innovative oil well solutions and energy technology advancements. Our expertise drives efficiency, safety, and sustainability in the oil and gas sector.',
+    'Petrovanta Energy Technology specializes in innovative oil well solutions and energy technology advancements. Our expertise drives efficiency, safety, and sustainability in the oil and gas sector.',
 };
 
 export default function RootLayout({
