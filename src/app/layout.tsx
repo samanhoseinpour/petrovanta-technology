@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
+import { GoogleTagManager } from '@next/third-parties/google';
 import './globals.css';
 import 'lenis/dist/lenis.css';
 
@@ -32,6 +33,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <GoogleTagManager gtmId="G-2FFV0XYWGD" />
         <link rel="icon" href="/favicon.ico" />
       </head>
       <ReactLenis root>

@@ -40,6 +40,10 @@ body {
 } */
 
 @layer utilities {
+  .common-padding {
+    @apply px-12 max-sm:px-8;
+  }
+
   .flex-center {
     @apply flex items-center justify-center;
   }

@@ -8,11 +8,7 @@ import { riseWithFade, videoAnimation } from '../utils/animations';
 
 const HeroVideo: NextPage = () => {
   return (
-    <motion.div
-      className="px-12 max-sm:px-8 bg-cream"
-      initial="initial"
-      animate="animate"
-    >
+    <motion.div className="common-padding" initial="initial" animate="animate">
       <div className="grid grid-cols-[3fr_1fr] py-12 max-sm:grid-cols-1">
         <h1 className="text-7xl leading-[110%] font-bold max-w-[60rem] tracking-[-2px] max-sm:text-3xl dark:text-[--foreground]">
           <AnimatedWords title="World Leading Down View Camera Technology" />
